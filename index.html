@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <i>SHIVAKUMAR G R</i>
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">Education</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro" id="intro">
+    <h1 class="section__title section__title--intro">Hi, I am <strong>SHIVAKUMAR GR</strong></h1>
+    <p class="section__subtitle section__subtitle--intro">MCA STUDENT</p>
+    <img src="./img/profile1.jpeg" alt="a picture of Jane Smith" class="intro__img">
+  </section>
+
+
+  <!-- My Services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">Education</h2>
+    <div class="services">
+      <div class="service">
+        <h3>MCA</h3>
+        <p>Still studying MCA (Course Completion: 2023) in RNS Institute of Technology Bengluru with 1st sem marks:81.25%</p>
+      </div>
+      <div class="service">
+        <h3>BCA</h3>
+        <p>Specialty: Computer Application in SRNMNC College Shimoga with 84.8% <br> </p>
+      </div>
+      <div class="service">
+        <h3>SSLC and PUC</h3>
+        <p>SSLC: In Government High School Thirthahalli with 87.8% PUC: In govenment PU College Thirthahalli with 70.8%</p>
+      </div>
+    </div>
+
+    <a href="#work" class="btn">see my work</a>
+  </section>
+
+  <!-- About Me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Skills</h2>
+    <p class="section__subtitle section__subtitle--about">Self-motivated, Enthusiastic, Reliable and Responsible</p>
+
+    <div class="about-me__body">
+      <p>Technical Skills: Good at C, C++, Java, HTML, CSS, Javascript, Bootstrap, DBMS, sql.</p>
+      <p>Good logics and coding . Eger to learn new technologies</p>
+    </div>
+
+    <img src="./img/skill.jpg" alt="" class="about-me__img">
+  </section>
+
+  <!-- My Work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title">My work</h2>
+    <p class="section__subtitle--work">Tourism Management Systems</p>
+
+    <div class="portfolio">
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="./img/w2.jpeg" alt="" class="portfolio__img">
+      </a>
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="./img/w1.jpeg" alt="" class="portfolio__img">
+      </a>
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="./img/w3.jpeg" alt="" class="portfolio__img">
+      </a>
+      <a href="portfolio-item.html" class="portfolio__item">
+        <img src="./img/w4.jpeg" alt="" class="portfolio__img">
+      </a>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:shivutth57@gmail.com" class="footer__link">shivutth57@gmail.com</a>
+
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a href="https://linkedin.com" class="social-list__link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com" class="social-list__link"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.github.com" class="social-list__link"><i class="fab fa-github"></i></a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
